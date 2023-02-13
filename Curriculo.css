@@ -1,6 +1,55 @@
 
 
-h1  {
+header  {
     color: green;
-    padding: 200px 100px 50px 100px;
+    padding: 10px 10px 10px 10px;
+    border:1px solid grey;
+    text-align: center;
+    font-size: 20;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    margin: 3px;
+}
+
+#subtitle {
+    color: blueviolet;
+    font-size: 30;
+}
+img {
+    border-radius: 50%;
+    text-align: center; 
+ }
+ 
+li{
+    text-align: left;
+}
+
+ .info {
+     color: red;
+     font-weight: bold;
+ }
+
+h2 {
+    font-size: 20;
+    color: blue;
+}
+#boton, #boton2, #boton3, #boton4 {
+    color: coral;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
 }

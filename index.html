@@ -7,13 +7,148 @@
         <meta charset="UTF-8">
         <meta http-equiv="x-UA-Compatible" content="IE=edge">
         <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <title> My CV nuevo </title>
         <link rel="stylesheet" type="text/css" href="/home/estudiante/Escritorio/CV/Curriculo.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+        <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     
+        <style>
+          body {
+            background-color: lightgreen;
+          }
+      
+          @media only screen and (max-width: 600px) {
+              body {
+                background-color: lightblue;
+              }
+          }
+          </style>
       </head>
 
       <body>
-        <h1> "Titulo"</h1>
-        <p> "subtitulo"</p>
+        <header>
+          <h1> Curriculum Vitae </h1>
+          <h1> Fain, Susana Cecilia </h1>
+          <h2 id="subtitle">"Profesora de Inglés"</h2> 
+        </header>
 
+        <div class="container text-center">
+          <div class= "row">
+            <div class="col">
+            <ul>
+              <h2>Datos personales </h2>
+              <li>Nombre completo:
+                <span class = "info"> Susana Cecilia Fain</span>
+              </li>
+              <br>
+              <li>DNI:
+                <span class = "info"> 35117202</span>
+              </li>
+              <br>
+              <li>Cuil: 
+                <span class = "info"> 27351172024</span>
+              </li>
+              <br>
+              <li>Fecha de nacimiento: 
+                <span class = "info"> 28/01/1990</span>
+              </li>
+              <br>
+              <li>Dirección:
+                <span class = "info"> Ruiz 33</span>
+              </li>
+              <br>
+              <li>Ciudad:
+                <span class = "info"> Reconquista</span>
+              </li>
+              <br>
+              <li>Provincia:
+                <span class = "info"> Santa Fe</span>
+              </li>
+              <br>
+              <li>País:
+                <span class = "info"> Argentina</span>
+              </li>
+              <br>
+              <li>E-mail:
+                <span class = "info"> susif_28@hotmail.com</span>
+              </li>
+              <br>
+              <li>Estado civil:
+                <span class = "info"> Soltera</span>
+              </li>
+            </ul>
+            </div>
+            <div class="col">
+              <img src= "https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg" alt="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg" 
+              alt= "la imagen no se puede cargar en su navegador"
+              width="286" height="224">
+              <br>
+              <br>
+              <br>
+            <p>Para mayor información: </p>
+            
+            <form action="" method="get" class="form-example">
+              <div class="form-example">
+                <label for="name">Ingresá tu nombre: </label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <div class="form-example">
+                <label for="email">Ingresá el correo: </label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="form-example">
+                <label for="consulta">Ingresá tu consulta: </label>
+                <input type="text" name="consulta" id="consulta" required>
+              </div>
+              <div class="form-example">
+                <input type="submit" value="Enviar">
+              </div>
+            </form>
+              
+
+          </div>
+
+          <div class="col">
+            <h2>Formación Académica </h2>
+
+              <li>Estudios Secundarios</li> 
+            <button type="button" id="boton"> ver detalle </button>
+            
+
+            <br>
+            <br>
+            
+             <li>Estudios Terciarios</li>
+             <button type="button" id="boton2"> ver detalle </button>
+             
+            <br>
+            <br>
+            <br>
+
+            <h2>Antecedentes Académicos</h2>
+            <button type="button" id="boton3"> ver detalle </button>
+
+            <br>
+            <br>
+            <br>
+
+            <h2>Antecedentes Laborales</h2>
+            <button type="button" id="boton4"> ver detalle </button>
+
+            <p></p>
+          </div>
+         </div>
+        </div>
+
+        
+        <script src="Curriculo.js"></script>
+
+               
+
+
+        
       </body> 
   <html>
