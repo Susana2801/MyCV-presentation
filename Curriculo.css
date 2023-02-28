@@ -1,13 +1,16 @@
 
 
 header  {
-    color: green;
+    color: deeppink;
     padding: 10px 10px 10px 10px;
     border:1px solid grey;
     text-align: center;
     font-size: 20;
     font-family:'Yanone Kaffeesatz', sans-serif;
     margin: 3px;
+}
+h1 {
+    text-align: center;
 }
 
 #subtitle {
